@@ -6,6 +6,9 @@ info:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0.html
   version: '1.0'
+servers:
+- url: https://nan0.azurewebsites.net/
+  description: NanoUrl Production Server (live data)
 paths:
   /:
     get:
