@@ -12,6 +12,7 @@ servers:
 paths:
   /:
     get:
+      summary: Retrieve the base URL of the NanoUrl server
       tags:
         - NanoUrl
       responses:
@@ -23,6 +24,7 @@ paths:
                 type: string
   /{shortCode}:
     get:
+      summary: Redirect to the original URL associated with a given short code
       tags:
         - Url
       parameters:
@@ -60,6 +62,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
   /get/{shortCode}:
     get:
+      summary: Fetch the original URL mapped to a specified short code
       tags:
         - Url
       parameters:
@@ -95,6 +98,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
   /custom:
     post:
+      summary: Create a custom short URL for a provided long URL
       tags:
         - Url
       requestBody:
@@ -147,6 +151,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'
   /shorten:
     post:
+      summary: Generate a short URL for a given long URL
       tags:
         - Url
       requestBody:
