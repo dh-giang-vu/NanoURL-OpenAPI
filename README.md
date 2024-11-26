@@ -1,4 +1,4 @@
-# Demo
+# NanoURL-OpenAPI
 
 **Live Demo Link**: https://dh-giang-vu.github.io/NanoURL-OpenAPI/
 
