@@ -7,7 +7,7 @@ info:
     url: https://www.apache.org/licenses/LICENSE-2.0.html
   version: '1.0'
 servers:
-- url: https://nan0.azurewebsites.net/
+- url: https://nan1.azurewebsites.net/
   description: NanoUrl Production Server (live data)
 paths:
   /:
